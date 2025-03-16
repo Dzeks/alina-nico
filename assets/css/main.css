@@ -2871,12 +2871,14 @@ input, select, textarea {
 		}
 
 		#footer footer {
-			bottom: 2em;
+			bottom: 0;
 			color: rgba(255, 255, 255, 0.5);
 			left: 0;
 			position: absolute;
 			text-align: center;
 			width: 100%;
+			padding: 2.5em 0 2em;
+			background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6));
 		}
 
 			#footer footer h1, #footer footer h2, #footer footer h3, #footer footer h4, #footer footer h5, #footer footer h6, #footer footer strong, #footer footer b {

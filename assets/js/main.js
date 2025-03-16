@@ -156,6 +156,7 @@
 					.css('background-image', (
 						'url("assets/css/images/overlay.png"), url("' + $primaryImg.attr('src') + '")'
 					))
+					.css('background-position', $primaryImg.data('bg-position'))
 					.appendTo($body);
 
 			// Scrollex.
