@@ -2343,7 +2343,7 @@ input, select, textarea {
 
 		ul.icons-grid li {
 			display: inline-block;
-			padding: 3em 0;
+			padding: 1em 0.5em;
 			width: 50%;
 			min-width: 50%;
 		}
